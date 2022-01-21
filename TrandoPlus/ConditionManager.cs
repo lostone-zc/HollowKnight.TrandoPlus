@@ -12,7 +12,7 @@ namespace TrandoPlus
 
         private static void PreventAdjacentBenches(RequestBuilder rb)
         {
-            if (!TrandoPlus.GS.ProhibitAdjacentBenches) return;
+            if (!TrandoPlus.GS.避免相邻椅子房间) return;
 
             foreach (GroupBuilder gb in rb.EnumerateTransitionGroups())
             {

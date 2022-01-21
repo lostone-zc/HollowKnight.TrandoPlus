@@ -24,7 +24,7 @@ namespace TrandoPlus
         {
             DoorRandoTransitions.Clear();
 
-            if (!TrandoPlus.GS.RandomizeDoors) return;
+            if (!TrandoPlus.GS.门随机) return;
 
             foreach (VanillaRequest pair in new List<VanillaRequest>(rb.Vanilla.EnumerateDistinct()))
             {
@@ -40,7 +40,7 @@ namespace TrandoPlus
 
         private static void SetDoorRandoForAreaRando(RequestBuilder rb)
         {
-            if (!TrandoPlus.GS.RandomizeDoors) return;
+            if (!TrandoPlus.GS.门随机) return;
 
             TransitionSettings ts = rb.gs.TransitionSettings;
             if (ts.Mode == TransitionSettings.TransitionMode.RoomRandomizer
@@ -105,7 +105,7 @@ namespace TrandoPlus
 
         private static void SetDoorRandoForItemRando(RequestBuilder rb)
         {
-            if (!TrandoPlus.GS.RandomizeDoors) return;
+            if (!TrandoPlus.GS.门随机) return;
 
             TransitionSettings ts = rb.gs.TransitionSettings;
             if (ts.Mode != TransitionSettings.TransitionMode.None)

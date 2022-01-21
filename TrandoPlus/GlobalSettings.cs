@@ -2,8 +2,8 @@
 {
     public class GlobalSettings
     {
-        public bool RandomizeDoors = false;
-        public bool RandomizeDrops = false;
-        public bool ProhibitAdjacentBenches = false;
+        public bool 门随机 = false;
+        public bool 下落随机 = false;
+        public bool 避免相邻椅子房间 = false;
     }
 }

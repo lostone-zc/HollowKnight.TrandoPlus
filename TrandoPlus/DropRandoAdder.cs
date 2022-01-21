@@ -19,7 +19,7 @@ namespace TrandoPlus
         {
             DropRandoTransitions.Clear();
 
-            if (!TrandoPlus.GS.RandomizeDrops) return;
+            if (!TrandoPlus.GS.下落随机) return;
 
             foreach (VanillaRequest pair in new List<VanillaRequest>(rb.Vanilla.EnumerateDistinct()))
             {
@@ -34,7 +34,7 @@ namespace TrandoPlus
 
         private static void AddDropsToRandoPool(RequestBuilder rb)
         {
-            if (!TrandoPlus.GS.RandomizeDrops) return;
+            if (!TrandoPlus.GS.下落随机) return;
 
             if (rb.gs.TransitionSettings.Mode == TransitionSettings.TransitionMode.RoomRandomizer)
             {

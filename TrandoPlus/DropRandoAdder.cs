@@ -1,4 +1,4 @@
-﻿using RandomizerMod.RandomizerData;
+using RandomizerMod.RandomizerData;
 using RandomizerMod.RC;
 using RandomizerMod.Settings;
 using System.Collections.Generic;

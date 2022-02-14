@@ -1,4 +1,4 @@
-﻿using RandomizerCore;
+using RandomizerCore;
 using RandomizerCore.Extensions;
 using RandomizerCore.Randomization;
 using RandomizerMod.RandomizerData;

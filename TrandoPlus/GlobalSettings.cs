@@ -1,4 +1,4 @@
-﻿namespace TrandoPlus
+namespace TrandoPlus
 {
     public class GlobalSettings
     {

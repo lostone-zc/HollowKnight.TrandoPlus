@@ -1,4 +1,4 @@
-﻿using RandomizerCore.Randomization;
+using RandomizerCore.Randomization;
 using RandomizerMod.RC;
 
 namespace TrandoPlus
